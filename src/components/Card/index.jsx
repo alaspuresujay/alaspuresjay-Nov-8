@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react"
-import { BodyContent, CardBody, CardBodyTop, CardFooter, CardHeader, CardImage, CardWrapper } from "./style.card"
+import { BodyContent, CardBody, CardBodyTop, CardFooter, CardHeader, CardWrapper } from "./style.card"
 import CloseIcon from "@mui/icons-material/Close"
 import Avatar from "../atoms/Avatar"
 import Title from "../atoms/Title"
@@ -37,7 +37,7 @@ function Card() {
         <Avatar src="https://avatars.dicebear.com/api/pixel-art/ssa.svg?size=100" alt="random" />
         <BodyContent>
           <CardBodyTop>
-            <Title name="James Franco" />
+            <Title name="Elon Musk" />
             <VisibilityButton />
           </CardBodyTop>
           <TextArea ref={inputRef} />
