@@ -25,7 +25,7 @@ function VisibilityButton() {
           setIsOpen((prev) => !prev)
         }}
       >
-        <PublicIcon color="inherit" />
+        <selectedOption.Icon color="inherit" />
         <p className="text">{selectedOption.label}</p>
         <ExpandMoreIcon color="inherit" />
       </Button>
