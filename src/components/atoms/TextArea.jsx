@@ -24,6 +24,7 @@ const TextArea = React.forwardRef((props, ref) => {
 })
 
 const InputWrapper = styled.div`
+  flex: 1;
   .count {
     text-align: right;
     color: ${COLORS.text};

@@ -5,10 +5,9 @@ export const CardWrapper = styled.div`
   background-color: #fff;
   border-radius: 8px;
   box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
-  /* padding: 16px; */
   margin: 16px;
-  min-width: 500px;
-  min-height: 300px;
+  min-width: 700px;
+  min-height: 500px;
   display: grid;
   grid-template-rows: max-content auto max-content;
 `
@@ -19,7 +18,6 @@ export const CardHeader = styled.div`
   justify-content: space-between;
   padding: 1rem;
   border-bottom: 1px solid #e7ebed;
-  /* margin-bottom: 0.2rem; */
 
   .title {
     font-size: 1.2 rem;

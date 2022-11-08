@@ -4,8 +4,8 @@ import CloseIcon from "@mui/icons-material/Close"
 
 function DisplayImage({ src, onRemove }) {
   return (
-    <CardImageWrapper onClick={onRemove}>
-      <div className="close">
+    <CardImageWrapper>
+      <div className="close" onClick={onRemove}>
         <CloseIcon />
       </div>
       <CardImage src={src} />
@@ -15,8 +15,7 @@ function DisplayImage({ src, onRemove }) {
 
 const CardImageWrapper = styled.div`
   position: relative;
-  max-height: 150px;
-  overflow: hidden;
+
   border-radius: 10px;
   border: 1px solid #e0e0e0;
   .close {
@@ -36,12 +35,10 @@ const CardImageWrapper = styled.div`
 `
 
 const CardImage = styled.img`
-  width: 220px;
-  max-height: 150px;
-  /* height: 100%; */
+  max-height: 200px;
+  width: 100%;
   object-fit: cover;
   border-radius: 8px;
-  /* aspect-ratio: 1/1; */
 `
 
 export default DisplayImage
