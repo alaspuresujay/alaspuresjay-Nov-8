@@ -8,6 +8,7 @@ export const CardWrapper = styled.div`
   margin: 16px;
   min-width: 700px;
   min-height: 500px;
+  max-width: 60%;
   display: grid;
   grid-template-rows: max-content auto max-content;
 `

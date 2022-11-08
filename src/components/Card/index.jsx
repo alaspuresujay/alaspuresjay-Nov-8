@@ -15,7 +15,7 @@ function Card() {
   const inputRef = useRef()
   const [postData, setPostData] = useState({
     content: "",
-    file: "blob:http://localhost:3000/2f0e180c-a98b-4e4e-bf3f-a51a6a5679ef",
+    file: "",
   })
 
   const handlePostData = ({ type, data }) => {
